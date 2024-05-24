@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header h1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #1d4980;
+}
+
+#cabecalho nav .nav-link.active {
+    background-color: #fff;
+    color: #1d4980;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-viagens .nav-link.active:hover,
+.accordion-button {
+    color: #fff;
+}
+
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Pacifico", cursive;
+}
+
+#viagens {
+    background-color: #e1efff;
+}
+
+
+.nav-viagens .nav-link.active,
+#fale-conosco button {
+    background-color: #1d4980;
+    color: #fff;
+}
+
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+
+#carousel .carousel-item img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+#accordionExample button {
+    font-weight: 500;
+    background-color: #1d4980;
+    color: #fff;
+}
+
+.text-colored {
+    color: #1d4980;
+}
+
+.tab-content img {
+    height: 180px;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
